@@ -9,22 +9,22 @@ int main(void) {
     return EXIT_FAILURE;
   }
   
-  // Création du tableau
+  // Create du tableau
   char t[h][h];
   
-  // Rempli le tableau avec des espaces
+  // Fill le tableau avec des espaces
   for(int k = 0; k < h; k++){
     for(int l = 0; l < h; l++){
       t[k][l] = ' ';
     }
   }
   
-  // Rempli les cases en diagonale (gauche à droite)
+  // Fill les cases en diagonale (gauche à droite)
   for(int k = 0; k < h; k++){
     t[k][k] = '*';
   }
    
-  // Rempli les cases en diagonale (droite à gauche)
+  // Fill les cases en diagonale (droite à gauche)
   int a = 0;
   int b = h-1;
   while(a < h){
