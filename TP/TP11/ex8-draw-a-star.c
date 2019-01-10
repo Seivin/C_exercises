@@ -9,7 +9,7 @@ int main(void) {
     return EXIT_FAILURE;
   }
   
-  // Create du tableau
+  // Create le tableau
   char t[h][h];
   
   // Fill le tableau avec des espaces
